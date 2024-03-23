@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mahasiswas",
+  "info": {
+    "singularName": "mahasiswa",
+    "pluralName": "mahasiswas",
+    "displayName": "Mahasiswa",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nim": {
+      "type": "biginteger"
+    },
+    "nama": {
+      "type": "string"
+    },
+    "alamat": {
+      "type": "text"
+    },
+    "tanggal_lahir": {
+      "type": "date"
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "Pria",
+        "Wanita"
+      ]
+    },
+    "usia": {
+      "type": "integer"
+    }
+  }
+}
